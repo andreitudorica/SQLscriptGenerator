@@ -1,0 +1,4 @@
+﻿  ScriptGenerator.cpp
+d:\andrei\work\others\sqlscriptgenerator\sqlscriptgenerator\scriptgenerator.cpp(261): warning C4101: 'columnIndex': unreferenced local variable
+  SQLScriptGenerator.vcxproj -> D:\Andrei\work\others\SQLScriptGenerator\Debug\SQLScriptGenerator.exe
+  SQLScriptGenerator.vcxproj -> D:\Andrei\work\others\SQLScriptGenerator\Debug\SQLScriptGenerator.pdb (Partial PDB)

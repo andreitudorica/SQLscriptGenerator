@@ -1,0 +1,23 @@
+CREATE DATABASE magazin; 
+GO
+ USE magazin 
+GO 
+ CREATE TABLE dbo.store(
+id int PRIMARY KEY NOT NULL IDENTITY(1,1) ,
+name varchar(50) NULL ,
+product_id int NULL )
+GO 
+INSERT INTO dbo.store (name,product_id)
+VALUES ('kaufland','12');
+INSERT INTO dbo.store (name,product_id)
+VALUES ('1','1');
+INSERT INTO dbo.store (name,product_id)
+VALUES ('polus','2');
+CREATE TABLE dbo.product(
+id int PRIMARY KEY NOT NULL IDENTITY(1,1) ,
+name varchar(50) NOT NULL )
+GO 
+INSERT INTO dbo.product (name)
+VALUES ('milka');
+INSERT INTO dbo.product (name)
+VALUES ('3');
